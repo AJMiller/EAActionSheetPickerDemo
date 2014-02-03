@@ -17,7 +17,7 @@
 
 @interface EAActionSheetPicker ()
 
-@property (nonatomic, strong) UIPickerView *picker;
+
 @property (nonatomic, strong) UIDatePicker *datePicker;
 
 @end

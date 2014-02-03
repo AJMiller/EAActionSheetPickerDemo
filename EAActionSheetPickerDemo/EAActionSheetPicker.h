@@ -57,7 +57,7 @@ typedef enum {
 @property (nonatomic) UIDatePickerMode dateMode;
 @property (nonatomic, strong) NSDate *minimumDate;
 @property (nonatomic, strong) NSDate *maximumDate;
-
+@property (nonatomic, strong) UIPickerView *picker;
 
 -(id)initWithOptions:(NSArray *)options;
 -(id)initWithDatePickerMode:(UIDatePickerMode)mode;
